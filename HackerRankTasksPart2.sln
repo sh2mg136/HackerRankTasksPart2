@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankTasksPart2", "HackerRankTasksPart2\HackerRankTasksPart2.csproj", "{C8890673-1292-4672-B126-DA1751DE69C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRankTasksPart2", "HackerRankTasksPart2\HackerRankTasksPart2.csproj", "{C8890673-1292-4672-B126-DA1751DE69C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EqualStacks", "EqualStacks\EqualStacks.csproj", "{589F1A37-8D08-4812-A436-814AF5AC559D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "__TestProject", "__TestProject\__TestProject.csproj", "{03CFD8A3-FB7C-4E61-99BE-C5AF91D5CB83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C8890673-1292-4672-B126-DA1751DE69C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8890673-1292-4672-B126-DA1751DE69C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8890673-1292-4672-B126-DA1751DE69C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589F1A37-8D08-4812-A436-814AF5AC559D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589F1A37-8D08-4812-A436-814AF5AC559D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589F1A37-8D08-4812-A436-814AF5AC559D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589F1A37-8D08-4812-A436-814AF5AC559D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03CFD8A3-FB7C-4E61-99BE-C5AF91D5CB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CFD8A3-FB7C-4E61-99BE-C5AF91D5CB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CFD8A3-FB7C-4E61-99BE-C5AF91D5CB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CFD8A3-FB7C-4E61-99BE-C5AF91D5CB83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

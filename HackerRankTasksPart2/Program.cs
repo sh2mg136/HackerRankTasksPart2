@@ -1,9 +1,18 @@
-﻿//
-// Cavity Map
-// https://www.hackerrank.com/challenges/cavity-map/problem?isFullScreen=true
-using HackerRankTasksPart2;
+﻿using HackerRankTasksPart2;
 using System.Diagnostics;
 
+//
+//
+// Print the Elements of a Linked List
+var head = new SinglyLinkedListNode(2);
+
+ElementsOfALinkedList.printLinkedList(head);
+
+
+//
+//
+// Cavity Map
+// https://www.hackerrank.com/challenges/cavity-map/problem?isFullScreen=true
 Console.WriteLine("Cavity Map");
 List<string> result = new List<string>();
 List<string> correct = new List<string>();
