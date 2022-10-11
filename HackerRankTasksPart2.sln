@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "__TestProject", "__TestProj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListTasks", "LinkedListTasks\LinkedListTasks.csproj", "{125D054E-1130-402C-ACF9-EF85AB890BBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtraLongFactorials", "ExtraLongFactorials\ExtraLongFactorials.csproj", "{5255BEAD-2186-4288-B127-A13365587F0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{125D054E-1130-402C-ACF9-EF85AB890BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{125D054E-1130-402C-ACF9-EF85AB890BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{125D054E-1130-402C-ACF9-EF85AB890BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5255BEAD-2186-4288-B127-A13365587F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5255BEAD-2186-4288-B127-A13365587F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5255BEAD-2186-4288-B127-A13365587F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5255BEAD-2186-4288-B127-A13365587F0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
