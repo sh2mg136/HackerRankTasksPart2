@@ -2,6 +2,31 @@
 {
     internal class LinkedListSolution
     {
+
+        public static int getNode(SinglyLinkedListNode llist, int positionFromTail)
+        {
+            if (llist == null) return 0;
+            if (llist.next == null) return llist.data;
+
+            var len = 0;
+            var cur = llist;
+
+            while (cur.next != null)
+            {
+                len++;
+                cur = cur.next;
+            }
+
+            while (len > positionFromTail)
+            {
+                llist = llist.next;
+                len--;
+            }
+
+            return llist.data;
+        }
+
+
         internal static SinglyLinkedListNode insertNodeAtTail(SinglyLinkedListNode head, int data)
         {
             var tmp = head;
@@ -42,6 +67,50 @@
         }
     }
 
+
+
+    class SinglyLinkedListNode
+    {
+        public int data;
+        public SinglyLinkedListNode next;
+
+        public SinglyLinkedListNode(int nodeData)
+        {
+            this.data = nodeData;
+            this.next = null;
+        }
+    }
+
+    class SinglyLinkedList
+    {
+        public SinglyLinkedListNode head;
+        public SinglyLinkedListNode tail;
+
+        public SinglyLinkedList()
+        {
+            this.head = null;
+            this.tail = null;
+        }
+
+        public void InsertNode(int nodeData)
+        {
+            SinglyLinkedListNode node = new SinglyLinkedListNode(nodeData);
+
+            if (this.head == null)
+            {
+                this.head = node;
+            }
+            else
+            {
+                this.tail.next = node;
+            }
+
+            this.tail = node;
+        }
+    }
+
+
+    /*
     internal class SinglyLinkedListNode
     {
         public int data;
@@ -65,4 +134,6 @@
             this.tail = null;
         }
     }
+    */
+
 }
