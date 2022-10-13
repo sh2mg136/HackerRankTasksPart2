@@ -76,5 +76,17 @@
 
             return dict;
         }
+
+        public static Dictionary<string, Employee> OldestAgeForEachCompany2(List<Employee> employees)
+        {
+            var dict = new Dictionary<string, Employee>();
+            if (employees == null || !employees.Any())
+                return dict;
+            var tmp = employees.GroupBy(x => x.Company).Select(x => x.MaxBy(e => e.Age)).Cast<Employee>();
+            dict = tmp
+                .OrderBy(x => x.Company)
+                .ToDictionary(x => x.Company, x => x);
+            return dict;
+        }
     }
 }
